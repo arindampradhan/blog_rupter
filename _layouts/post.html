@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p class="post-meta">
+{{ page.date | date_to_string }} {{ page.location }}
+{% for tag in page.tags %}
+<a href="/tags/#{{ tag | replace:' ','%20' }}"><span class="badge">{{ tag }}</span></a>
+{% endfor %}
+</p>
+<div style="display:inline-block;vertical-align:top">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="arindam" data-related="arindam" data-count="none">Tweet</a>
+</div>
+<div style="display:inline-block;vertical-align:top">
+    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
+</div>
+<div style="display:inline-block;vertical-align:top">
+    <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+</div>
+<div style="display:inline-block;vertical-align:top">
+    <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+</div>
+{{ content }}
+<div style="display:inline-block;vertical-align:top">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="arindam" data-related="arindam" data-count="none">Tweet</a>
+</div>
+<div style="display:inline-block;vertical-align:top">
+    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
+</div>
+<div style="display:inline-block;vertical-align:top">
+    <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+</div>
+<div style="display:inline-block;vertical-align:top">
+    <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+</div>
+<div id="disqus_thread"></div>
+<!--twitter-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!--pocket-->
+<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+<!--hn-->
+<script>
+    (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.src = '//hnbutton.appspot.com/static/hn.min.js';
+        s.parentNode.insertBefore(g, s);
+    }(document, 'script'));
+</script>
+<!--g+-->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!--disqus-->
+<script type="text/javascript">
+    var disqus_shortname = 'arindam';
+    var disqus_url = "http://www.arindam.com{{ page.url }}";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">arindam.com</title>
+    <link type="application/atom+xml" href="http://www.arindam.com/feed/" rel="self"/>
+    <link type="text/html" href="http://www.arindam.com" rel="alternate"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://www.arindam.com/</id>
+    <author>
+        <name>Arindam Pradhan</name>
+    </author>
+    <rights>Copyright (c) Arindam Pradhan</rights>
+    {% for post in site.posts limit:20 %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://www.arindam.com{{ post.url }}/"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://blog.arindam.com{{ post.url }}/</id>
+        <summary type="html">{{ post.content | xml_escape }}</summary>
+    </entry>
+    {% endfor %}
+</feed>
