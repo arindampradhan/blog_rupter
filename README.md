@@ -1,4 +1,3 @@
-arindampradhan.github.com
-====================
+arindampradhan.c====================
 
 This is my blog created with jekyll...
