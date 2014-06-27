@@ -99,13 +99,24 @@ body {
           float:left;
           border:1.5em solid #fff;
       }
+      .ribbon{
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
 
+      }
       .ribbon:after {
           border-right-color:transparent;
+          -webkit-box-shadow: 0 8px 6px -6px black;
+          -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
       }
 
       .ribbon:before {
           border-left-color:transparent;
+          -webkit-box-shadow: 0 8px 6px -6px black;
+          -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
       }
       .ribbon a:link, .ribbon a:visited { 
           color:#000;
