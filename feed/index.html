@@ -16,8 +16,8 @@
         <title>{{ post.title }}</title>
         <link href="http://www.arindam.com{{ post.url }}/"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://blog.arindam.com{{ post.url }}/</id>
-        <summary type="html">{{ post.content | xml_escape }}</summary>
+        <id>http://blog.arindam.com{{ post.id }}/</id>
+        <content type="html">{{ post.content | xml_escape }}{% include rss_footer.html %}</content>
     </entry>
     {% endfor %}
 </feed>
