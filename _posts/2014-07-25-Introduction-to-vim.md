@@ -4,6 +4,7 @@ title: Introduction to Vim
 location: Bhubaneswar
 tags:
 - vim
+- dotfiles
 ---
 Well if you are new to vim or linux or a wannabe programmer this post is surely for you.As you google about vim you will get hell of a lot of answers which gets complicated as the more you read them.So only read the wiki artilce to get the story.And the moment you start using it you will realise it's not your cup of tea and can't be learnt in a day.
 
