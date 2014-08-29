@@ -23,39 +23,7 @@
         /*==================================================
          * Effect 8
          * ===============================================*/
-        .span8
-        {
-            
-            position:relative;
-            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-               -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-                    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-        }
-        .span8:before, .span8:after
-        {
-          content:"";
-            position:absolute;
-            z-index:-1;
-            -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-            -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-            box-shadow:0 0 20px rgba(0,0,0,0.8);
-            top:10px;
-            bottom:10px;
-            left:0;
-            right:0;
-            -moz-border-radius:100px / 10px;
-            border-radius:100px / 10px;
-        }
-        .span8:after
-        {
-          right:10px;
-            left:auto;
-            -webkit-transform:skew(8deg) rotate(3deg);
-               -moz-transform:skew(8deg) rotate(3deg);
-                -ms-transform:skew(8deg) rotate(3deg);
-                 -o-transform:skew(8deg) rotate(3deg);
-                    transform:skew(8deg) rotate(3deg);
-        }      
+             
     </style>
   </head>
   <body background="/img/back1.jpg">
@@ -135,22 +103,7 @@
               </div>
              
                   <br/>
-                  <div >
-                    <style type="text/css">
-                      .span8{
-                      background-color: white;
-                      }
-                      #tweets{
-                        width: 120px;
-                        height: 400px;
-                        top: 0;
-                       /* left: 0;
-*/                        
-                        height: 100%;
-                        z-index:99;
-                      }
-                    </style>
-                    
+                  <div >                    
                   <div id="tweets" class="container-fluid">
                     <section><a class="twitter-timeline" href="https://twitter.com/rrindam" data-widget-id="477053920343097344">Tweets by @rrindam</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></section>
@@ -193,6 +146,8 @@
         });
     </script>
         <script type="text/javascript">
+        if ( $(window).width() > 960) {
+     
         $(function() {
             var offset = $("#sidebar").offset();
             var topPadding = 15;
@@ -208,6 +163,7 @@
                 };
             });
         });
+      }
     </script>
     <script type="text/javascript">
 
