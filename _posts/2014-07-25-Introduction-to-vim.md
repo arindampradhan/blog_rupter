@@ -36,13 +36,13 @@ First of all, after installing you have to manually create a folder called .vim 
 	│   └── I keep all the subfolders and important files.
 	│   
 	└── .vimrc(file)
-		└── I am thes monster you must understand before using vim
+		└── I am the monster you must understand before using vim
 	    
 ```
 
 These are dotfiles begins with dots so are hidden in linux.To see them type "Ctrl-h". 
 
-Both the .vimrc file and the .vim folder are used to configure vim editor.Initially you will get a version of vim which will nothing cooler than a terminal :P.
+Both the .vimrc file and the .vim folder are used to configure vim editor.Initially you will get a version of vim which will be nothing cooler than a terminal :P.
 
 In this post I will talk about .vimrc .
 
@@ -62,7 +62,7 @@ Now open up your vim editor.
 
 You will see the number lines in vim and backgruound changed.And type "teh" a common spelling mistake.You will see them automaticaly get corrected.
 
-If you don't see them.Then probably vim may not opening .vimrc at startup and you need to manually configure it.
+If you don't see them.Then probably vim may not be opening .vimrc at startup and you need to manually configure it.
 TO check hit  &ltESC&gt :scriptnames.
 See if there is a vimrc is mentioned.If not google about how can you configure vim startups to point to .vimrc.You will probably find a lot of commands and solution online.
 
@@ -80,7 +80,7 @@ and combo mapping like nnoremap,inoremap and bunch of others.
 
 
 
->his shows you the [list](http://vim.wikia.com/wiki/Displaying_the_current_Vim_environment) of all the mappings.
+>this shows you the [list](http://vim.wikia.com/wiki/Displaying_the_current_Vim_environment) of all the mappings.
 
 A very important thing ,the commands you type in the vim panel are the same thing you can write in your vimrc file.
 
