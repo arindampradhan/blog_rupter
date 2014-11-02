@@ -19,11 +19,11 @@ He has also been core contributer to a wide variety of upstream projects.
 My schedule
 ===========
 
-It's was confusing to decide which talk to attend because this time they had **[parallel talks](http://in.pycon.org/2014/schedule.html)** running on 2 auditorium.So I had to always choose ..They all seem very intresting and most of them were 45min talks.
+It's was confusing to decide which talk to attend because this time they had **[parallel talks](http://in.pycon.org/2014/schedule.html)** running on 2 auditorium.So I had to always choose ..They all seem very interesting and most of them were 45min talks.
 
 Anyways,I decided to go to:
 
-* [Python + Spark: Lightning Fast Cluster Computing](http://in.pycon.org/funnel/2014/108-python-spark-lightning-fast-cluster-computing)
+* [Python + Spark: Lightning Fast Cluster Computing ](http://in.pycon.org/funnel/2014/108-python-spark-lightning-fast-cluster-computing)
  (Jyotiska NK)
 
 * [Django Design Patterns](http://in.pycon.org/funnel/2014/227-django-design-patterns) (Arun Ravindran)
@@ -32,17 +32,17 @@ Anyways,I decided to go to:
 
 * Ya the lunch was great too.
 
-* [Meet ElasticSearch - My Pet Crunch Monster](http://in.pycon.org/funnel/2014/253-meet-elasticsearch-my-pet-crunch-monster-directi) (Dhananjay Sathe)
+* [Meet ElasticSearch - My Pet Crunch Monster ](http://in.pycon.org/funnel/2014/253-meet-elasticsearch-my-pet-crunch-monster-directi) (Dhananjay Sathe)
 
 * [GPU accelerated high performance computing primer
 ](http://in.pycon.org/funnel/2014/158-gpu-accelerated-high-performance-computing-primer) (Gurajapu Raja Suman)
 
->The most facinating talk for me was *Messing with government data using Python*
+>The most fascinating talk for me was *Messing with government data using Python*
 *- Anand Chitipothu*
 
-I have a *huge intrest in datamining*.And I got to know about small hacks.
+I have a *huge interest in datamining*.And I got to know about small hacks.
 
-Mostly I used beautifulsoup and requests...
+Mostly I used *beautifulsoup and requests...*
 Now I am going to give a shot to scrapy and mechanize..
 They seem to differ as they can trigger things at runtime.
 
@@ -75,13 +75,13 @@ So my schedule was exciting:
 
 The simplicity of the talk was 1.It was a benchmark topic for me.
 
-He not only showed ways,but python libraries to use for faster data processing  and also urged people to think whether they need the speed or not.
+He not only showed ways ,but python libraries to use for faster data processing  and also urged people to think whether they need the speed or not.
 
-He started with a simple program that reads a csv file and formats the required data for votes in a state in perticular year.He explored the data stories visually with Python and Javascript.
+He started with a simple program that reads a csv file and formats the required data for votes in a state in particular year.He explored the data stories visually with Python and Javascript.
 
->He optimised his code as fluent as one can get in algorithms.
+>He optimized his code as fluent as one can get in algorithms.
 
-Using basic python,he used cpython then pypy @jit to optimize the code.It stared with a runtime of 1.5 millisec to microsec in cpython to nanosec in [@jit](http://pypy.org/).
+He started wth a basic python code to solve the problem ,later he used cpython then pypy @jit to optimize the code.It stared with a runtime of 1.5 millisec in standard python to microsec in cpython and to nanosec in [@jit](http://pypy.org/).
 
 
 And yes how can I miss to mention this 9yr prodigy who programmes an arduino.
