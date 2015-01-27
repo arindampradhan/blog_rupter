@@ -1,7 +1,5 @@
 safe:        true
-auto:        true
-server:      false
-server_port: 4000
+port: 4000
 url: http://localhost:4000
 host:  "http://arindam2u.com"
 
@@ -11,7 +9,7 @@ plugins:     ./_plugins
 
 future:      true
 lsi:         false
-pygments:    false
+highlighter:    false
 markdown:    rdiscount
 permalink:   pretty
 
